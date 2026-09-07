@@ -99,17 +99,20 @@ C:\Users\harsha\Desktop\Underwater-Trash-Detection\processed_dataset
 3. Run `notebooks/01_data_preprocessing.ipynb` to generate the processed version
 
 **Customized Dataset Using RoboFlow**
+
 For this project, a customized version of the dataset was created and processed using Roboflow.
 
 The dataset was uploaded to Roboflow, where preprocessing and augmentation techniques were applied to improve dataset quality, increase data diversity, and enhance the model's ability to detect underwater waste under different environmental conditions.
 
 **⚙️ Preprocessing**
+
 The following preprocessing techniques were applied:
 - Image resizing to 640 × 640 pixels
 - Auto-orientation of images
 - Bounding box and label verification
 
 **🔄 Data Augmentation**
+
 To increase the diversity of the training data, the following augmentation techniques were applied:
 - Horizontal flipping
 - Rotation augmentation
